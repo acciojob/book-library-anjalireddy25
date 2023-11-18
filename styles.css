@@ -4,17 +4,19 @@ body{
 }
 .book-library{
 	background-color:#ffffff;
-}
-.book-library>.book>img{
-	background-color:purple;
-	align-items:center;
-	margin-right:auto;
+	display:flex;
+	flex-direction:column;
+	
 }
 img{
-	align-items:center;
+	display:block;
+	margin-left:auto;
+	margin-right:auto; 
+	
 }
 #rs{
 	background-color:#2ecc71;
+	color:rgb(255,255,255);
 }
 .author{
 	color:#777777;
